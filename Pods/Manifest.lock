@@ -1,0 +1,20 @@
+PODS:
+  - MGStarRatingView (1.0.0)
+  - RappleProgressHUD (4.1)
+
+DEPENDENCIES:
+  - MGStarRatingView (~> 1.0.0)
+  - RappleProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - MGStarRatingView
+    - RappleProgressHUD
+
+SPEC CHECKSUMS:
+  MGStarRatingView: 78c9bfc20d6b6f2a4d6b69e7821043685ad1372a
+  RappleProgressHUD: f29bc5dc5f9834c2caa9c2ae21ba11f3ff2b5a85
+
+PODFILE CHECKSUM: 0d44ea71185d552f0bf6ee58cf4739d2eac90ee7
+
+COCOAPODS: 1.11.3

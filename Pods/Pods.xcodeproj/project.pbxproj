@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0785F49A51F5D6D0DAAF164A0F38250D /* MGStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378E21CB09F18EF0645CA3CA11E2F18 /* MGStarRatingView-dummy.m */; };
+		0E0F149B986FC4AA43884EFD6FDFC263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5153297BCB9D44AB6D98ECFB0EA8B293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		59CF90C5558C3ECCBFB513014FAE2961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A754D90F1557E70D11FC427E9165F19 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E1DEC3AEBB1F282EBF38B4AEDA0F37 /* StarRatingView.swift */; };
+		68780B919B2CFBF7739B1470D190BA04 /* RappleProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BED9C39E7C00CD6F05A834D3168DEF /* RappleProgressHUD.swift */; };
+		72D51E2DFE0FC793D1E656D9485B1A91 /* MGStarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFCC769635B597618A32EACB9B318CE /* MGStarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DAF93006C3B9C075D3DEC068E30CD6 /* RappleAIPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9364496ECC9B397BECC084ED9DE78 /* RappleAIPrivate.swift */; };
+		7EE52392962A8E53AA18118F12131064 /* Pods-Namita_iOS_Developer_Tasks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B71E04219AC5D634B09B842EFAE346 /* Pods-Namita_iOS_Developer_Tasks-dummy.m */; };
+		8377A30A29006B059BF24E004573037E /* RappleAIUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F47299A8C16AF3A7141B498FC3B55 /* RappleAIUIs.swift */; };
+		863D7751DADC5E0216EAD002CF1728FE /* RappleProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBE643486DD789B326C9D36B68B617 /* RappleProgressHUD-dummy.m */; };
+		B5ADFC4753714C3FA26BC5FD1AD2068D /* RappleActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77CF212E5DA10CD6696A67F1629A64 /* RappleActivityIndicatorView.swift */; };
+		BDBFD9130AA75A8F308A2EDD0D2F8185 /* RappleAIAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F2EBBF10E3174645616DA5981360E /* RappleAIAction.swift */; };
+		CFB51EE909EF9264AA006AB607FC37F8 /* RappleProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C847BBC42AAB4B08DD787AFDC39F86 /* RappleProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B7F956B1E74AC4C80FEF5B9D7B12E4 /* Pods-Namita_iOS_Developer_Tasks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF03FC41C483C7D56B8776B33E6FE /* Pods-Namita_iOS_Developer_Tasks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50DAFC9A15C6D284F7F8CFBC0D565291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26B6EBB6DE7D2C47644AA2811809B60;
+			remoteInfo = MGStarRatingView;
+		};
+		8C25FF291B04A5D51C205D5B1402812B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBB0AF339A0BACF1A004A1E44E9BE9D;
+			remoteInfo = RappleProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B7D957CA1FCB77236A6A47F32173F2 /* MGStarRatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGStarRatingView.debug.xcconfig; sourceTree = "<group>"; };
+		1B77CF212E5DA10CD6696A67F1629A64 /* RappleActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleActivityIndicatorView.swift; path = Sources/RappleProgressHUD/RappleActivityIndicatorView.swift; sourceTree = "<group>"; };
+		1B930D245A8441663FE027380159B2B8 /* Pods-Namita_iOS_Developer_Tasks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Namita_iOS_Developer_Tasks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		218F449F80F191A0800FB57FBCDD4B04 /* Pods-Namita_iOS_Developer_Tasks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Namita_iOS_Developer_Tasks-frameworks.sh"; sourceTree = "<group>"; };
+		2AEE0893263120DBA08B6801C3B0D54D /* MGStarRatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGStarRatingView.release.xcconfig; sourceTree = "<group>"; };
+		37BDF03FC41C483C7D56B8776B33E6FE /* Pods-Namita_iOS_Developer_Tasks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Namita_iOS_Developer_Tasks-umbrella.h"; sourceTree = "<group>"; };
+		3D4A67753CA18DD870B296144BA3F8CF /* RappleProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RappleProgressHUD.modulemap; sourceTree = "<group>"; };
+		4378E21CB09F18EF0645CA3CA11E2F18 /* MGStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGStarRatingView-dummy.m"; sourceTree = "<group>"; };
+		447B823F33C5C3082E259729BF47EEA8 /* RappleProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		46BED9C39E7C00CD6F05A834D3168DEF /* RappleProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleProgressHUD.swift; path = Sources/RappleProgressHUD/RappleProgressHUD.swift; sourceTree = "<group>"; };
+		53E1D1387237468F0E681A45A32B8E36 /* Pods-Namita_iOS_Developer_Tasks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Namita_iOS_Developer_Tasks.modulemap"; sourceTree = "<group>"; };
+		5E91B31DB73A3B008575B54D4987285B /* RappleProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RappleProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		6A4F47299A8C16AF3A7141B498FC3B55 /* RappleAIUIs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIUIs.swift; path = Sources/RappleProgressHUD/RappleAIUIs.swift; sourceTree = "<group>"; };
+		70B71E04219AC5D634B09B842EFAE346 /* Pods-Namita_iOS_Developer_Tasks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Namita_iOS_Developer_Tasks-dummy.m"; sourceTree = "<group>"; };
+		70E1DEC3AEBB1F282EBF38B4AEDA0F37 /* StarRatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarRatingView.swift; path = Sources/StarRatingView.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		812F2EBBF10E3174645616DA5981360E /* RappleAIAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIAction.swift; path = Sources/RappleProgressHUD/RappleAIAction.swift; sourceTree = "<group>"; };
+		8760BDBC27A31EDD431F112A90033366 /* RappleProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		8F7AEE01D346F9E1268664524038C2B4 /* Pods-Namita_iOS_Developer_Tasks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Namita_iOS_Developer_Tasks-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FFBE643486DD789B326C9D36B68B617 /* RappleProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		9909CC7EC44D795C2C83609A0703EEB1 /* MGStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGStarRatingView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F380E9FE5596FDDE14FA5F7AB60D30 /* Pods-Namita_iOS_Developer_Tasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Namita_iOS_Developer_Tasks.release.xcconfig"; sourceTree = "<group>"; };
+		B095726002A22170CB5CA046C41A89E4 /* MGStarRatingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGStarRatingView; path = MGStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RappleProgressHUD; path = RappleProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64D7A39AEAE164F8A0A9FB636751ED5 /* RappleProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		C6630920BB42D3EA251535695CDF1B2E /* Pods-Namita_iOS_Developer_Tasks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Namita_iOS_Developer_Tasks-Info.plist"; sourceTree = "<group>"; };
+		C98DBF20274C0FBDCEFDEB356DC0965C /* MGStarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGStarRatingView.modulemap; sourceTree = "<group>"; };
+		D5B253185483A882FE44E7CA599E0A01 /* MGStarRatingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGStarRatingView-Info.plist"; sourceTree = "<group>"; };
+		DB5E0A8BC56BD34F1BD16908B1801E76 /* Pods-Namita_iOS_Developer_Tasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Namita_iOS_Developer_Tasks.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A9364496ECC9B397BECC084ED9DE78 /* RappleAIPrivate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIPrivate.swift; path = Sources/RappleProgressHUD/RappleAIPrivate.swift; sourceTree = "<group>"; };
+		E7C847BBC42AAB4B08DD787AFDC39F86 /* RappleProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		EEFCC769635B597618A32EACB9B318CE /* MGStarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGStarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		FEE4A38AC69D17690139473882E46D91 /* Pods-Namita_iOS_Developer_Tasks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Namita_iOS_Developer_Tasks"; path = Pods_Namita_iOS_Developer_Tasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92367ED10A36A9A2CF7810AA511514A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0F149B986FC4AA43884EFD6FDFC263 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED512F26251E8C4E47E8C1B3AD10B554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5153297BCB9D44AB6D98ECFB0EA8B293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CB86FD866908E3DB6191A70D7B78E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CF90C5558C3ECCBFB513014FAE2961 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106EE65629703FC49EF4E7F12AE954D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98DBF20274C0FBDCEFDEB356DC0965C /* MGStarRatingView.modulemap */,
+				4378E21CB09F18EF0645CA3CA11E2F18 /* MGStarRatingView-dummy.m */,
+				D5B253185483A882FE44E7CA599E0A01 /* MGStarRatingView-Info.plist */,
+				9909CC7EC44D795C2C83609A0703EEB1 /* MGStarRatingView-prefix.pch */,
+				EEFCC769635B597618A32EACB9B318CE /* MGStarRatingView-umbrella.h */,
+				19B7D957CA1FCB77236A6A47F32173F2 /* MGStarRatingView.debug.xcconfig */,
+				2AEE0893263120DBA08B6801C3B0D54D /* MGStarRatingView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGStarRatingView";
+			sourceTree = "<group>";
+		};
+		42D40B92E4DFC7932D0D8734BA0D024D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B095726002A22170CB5CA046C41A89E4 /* MGStarRatingView */,
+				FEE4A38AC69D17690139473882E46D91 /* Pods-Namita_iOS_Developer_Tasks */,
+				BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5728D5F3C442F5ACF86F712ADAB191B6 /* MGStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				70E1DEC3AEBB1F282EBF38B4AEDA0F37 /* StarRatingView.swift */,
+				106EE65629703FC49EF4E7F12AE954D3 /* Support Files */,
+			);
+			name = MGStarRatingView;
+			path = MGStarRatingView;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		876F26600669A49A7EEA364373904E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5728D5F3C442F5ACF86F712ADAB191B6 /* MGStarRatingView */,
+				8DF317EC90D09C186155FEA63F506D97 /* RappleProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		886B4A40168D94ADA8C1F2B1B595D717 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A67753CA18DD870B296144BA3F8CF /* RappleProgressHUD.modulemap */,
+				8FFBE643486DD789B326C9D36B68B617 /* RappleProgressHUD-dummy.m */,
+				5E91B31DB73A3B008575B54D4987285B /* RappleProgressHUD-Info.plist */,
+				447B823F33C5C3082E259729BF47EEA8 /* RappleProgressHUD-prefix.pch */,
+				E7C847BBC42AAB4B08DD787AFDC39F86 /* RappleProgressHUD-umbrella.h */,
+				C64D7A39AEAE164F8A0A9FB636751ED5 /* RappleProgressHUD.debug.xcconfig */,
+				8760BDBC27A31EDD431F112A90033366 /* RappleProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RappleProgressHUD";
+			sourceTree = "<group>";
+		};
+		8DF317EC90D09C186155FEA63F506D97 /* RappleProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1B77CF212E5DA10CD6696A67F1629A64 /* RappleActivityIndicatorView.swift */,
+				812F2EBBF10E3174645616DA5981360E /* RappleAIAction.swift */,
+				E4A9364496ECC9B397BECC084ED9DE78 /* RappleAIPrivate.swift */,
+				6A4F47299A8C16AF3A7141B498FC3B55 /* RappleAIUIs.swift */,
+				46BED9C39E7C00CD6F05A834D3168DEF /* RappleProgressHUD.swift */,
+				886B4A40168D94ADA8C1F2B1B595D717 /* Support Files */,
+			);
+			name = RappleProgressHUD;
+			path = RappleProgressHUD;
+			sourceTree = "<group>";
+		};
+		A503F32F7BB779FB22198DC9810E52FC /* Pods-Namita_iOS_Developer_Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				53E1D1387237468F0E681A45A32B8E36 /* Pods-Namita_iOS_Developer_Tasks.modulemap */,
+				1B930D245A8441663FE027380159B2B8 /* Pods-Namita_iOS_Developer_Tasks-acknowledgements.markdown */,
+				8F7AEE01D346F9E1268664524038C2B4 /* Pods-Namita_iOS_Developer_Tasks-acknowledgements.plist */,
+				70B71E04219AC5D634B09B842EFAE346 /* Pods-Namita_iOS_Developer_Tasks-dummy.m */,
+				218F449F80F191A0800FB57FBCDD4B04 /* Pods-Namita_iOS_Developer_Tasks-frameworks.sh */,
+				C6630920BB42D3EA251535695CDF1B2E /* Pods-Namita_iOS_Developer_Tasks-Info.plist */,
+				37BDF03FC41C483C7D56B8776B33E6FE /* Pods-Namita_iOS_Developer_Tasks-umbrella.h */,
+				DB5E0A8BC56BD34F1BD16908B1801E76 /* Pods-Namita_iOS_Developer_Tasks.debug.xcconfig */,
+				A0F380E9FE5596FDDE14FA5F7AB60D30 /* Pods-Namita_iOS_Developer_Tasks.release.xcconfig */,
+			);
+			name = "Pods-Namita_iOS_Developer_Tasks";
+			path = "Target Support Files/Pods-Namita_iOS_Developer_Tasks";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				876F26600669A49A7EEA364373904E35 /* Pods */,
+				42D40B92E4DFC7932D0D8734BA0D024D /* Products */,
+				DE6BAB8388F2FAE35916CD5289AF1BE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6BAB8388F2FAE35916CD5289AF1BE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A503F32F7BB779FB22198DC9810E52FC /* Pods-Namita_iOS_Developer_Tasks */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AC2E698EB47FE0C1F177DDA4A7ED45B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB51EE909EF9264AA006AB607FC37F8 /* RappleProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B67F09494F42311BAA73B2C7CC9156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D51E2DFE0FC793D1E656D9485B1A91 /* MGStarRatingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC3FDD79B1EFD1CD51F30497F78B161 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B7F956B1E74AC4C80FEF5B9D7B12E4 /* Pods-Namita_iOS_Developer_Tasks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34FEAF3928866A782D4FA5363F726CB3 /* Pods-Namita_iOS_Developer_Tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4661B5B66B14659CC0777264D8CBFE /* Build configuration list for PBXNativeTarget "Pods-Namita_iOS_Developer_Tasks" */;
+			buildPhases = (
+				EEC3FDD79B1EFD1CD51F30497F78B161 /* Headers */,
+				71F72E1CA006F2E4F762B8804036D84F /* Sources */,
+				ED512F26251E8C4E47E8C1B3AD10B554 /* Frameworks */,
+				FC6420E0A364477F942AF14F2CE3E4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FB5D0EF496EFF98F2470095BBFBFEA /* PBXTargetDependency */,
+				5F0B0912B93E0B4AC0C615BD9509125C /* PBXTargetDependency */,
+			);
+			name = "Pods-Namita_iOS_Developer_Tasks";
+			productName = Pods_Namita_iOS_Developer_Tasks;
+			productReference = FEE4A38AC69D17690139473882E46D91 /* Pods-Namita_iOS_Developer_Tasks */;
+			productType = "com.apple.product-type.framework";
+		};
+		D26B6EBB6DE7D2C47644AA2811809B60 /* MGStarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8890B752CA9B9B9561B7C7720786BE2 /* Build configuration list for PBXNativeTarget "MGStarRatingView" */;
+			buildPhases = (
+				A2B67F09494F42311BAA73B2C7CC9156 /* Headers */,
+				32BDA07E7B6EB2C7357D3E552840F7C8 /* Sources */,
+				F4CB86FD866908E3DB6191A70D7B78E2 /* Frameworks */,
+				B4024C16F8BBC69DECF23453389F0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGStarRatingView;
+			productName = MGStarRatingView;
+			productReference = B095726002A22170CB5CA046C41A89E4 /* MGStarRatingView */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E23B30234E722B62616BE3103FDA815 /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */;
+			buildPhases = (
+				6AC2E698EB47FE0C1F177DDA4A7ED45B /* Headers */,
+				DBFC586E4B6E4C07ED54E91C8F4AFCEA /* Sources */,
+				92367ED10A36A9A2CF7810AA511514A1 /* Frameworks */,
+				B1C3862C22423D668459D4A024178FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappleProgressHUD;
+			productName = RappleProgressHUD;
+			productReference = BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 42D40B92E4DFC7932D0D8734BA0D024D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26B6EBB6DE7D2C47644AA2811809B60 /* MGStarRatingView */,
+				34FEAF3928866A782D4FA5363F726CB3 /* Pods-Namita_iOS_Developer_Tasks */,
+				FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C3862C22423D668459D4A024178FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4024C16F8BBC69DECF23453389F0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6420E0A364477F942AF14F2CE3E4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BDA07E7B6EB2C7357D3E552840F7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0785F49A51F5D6D0DAAF164A0F38250D /* MGStarRatingView-dummy.m in Sources */,
+				5A754D90F1557E70D11FC427E9165F19 /* StarRatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F72E1CA006F2E4F762B8804036D84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE52392962A8E53AA18118F12131064 /* Pods-Namita_iOS_Developer_Tasks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFC586E4B6E4C07ED54E91C8F4AFCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ADFC4753714C3FA26BC5FD1AD2068D /* RappleActivityIndicatorView.swift in Sources */,
+				BDBFD9130AA75A8F308A2EDD0D2F8185 /* RappleAIAction.swift in Sources */,
+				76DAF93006C3B9C075D3DEC068E30CD6 /* RappleAIPrivate.swift in Sources */,
+				8377A30A29006B059BF24E004573037E /* RappleAIUIs.swift in Sources */,
+				68780B919B2CFBF7739B1470D190BA04 /* RappleProgressHUD.swift in Sources */,
+				863D7751DADC5E0216EAD002CF1728FE /* RappleProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23FB5D0EF496EFF98F2470095BBFBFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGStarRatingView;
+			target = D26B6EBB6DE7D2C47644AA2811809B60 /* MGStarRatingView */;
+			targetProxy = 50DAFC9A15C6D284F7F8CFBC0D565291 /* PBXContainerItemProxy */;
+		};
+		5F0B0912B93E0B4AC0C615BD9509125C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RappleProgressHUD;
+			target = FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */;
+			targetProxy = 8C25FF291B04A5D51C205D5B1402812B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D752BA6B890CD14417B572500481FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5E0A8BC56BD34F1BD16908B1801E76 /* Pods-Namita_iOS_Developer_Tasks.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Namita_iOS_Developer_Tasks/Pods-Namita_iOS_Developer_Tasks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Namita_iOS_Developer_Tasks/Pods-Namita_iOS_Developer_Tasks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39FBBC32A68F813DEC47F281352E3D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEE0893263120DBA08B6801C3B0D54D /* MGStarRatingView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGStarRatingView/MGStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGStarRatingView/MGStarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MGStarRatingView/MGStarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = MGStarRatingView;
+				PRODUCT_NAME = MGStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58499660A67334AA808D3619EFC6D445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F380E9FE5596FDDE14FA5F7AB60D30 /* Pods-Namita_iOS_Developer_Tasks.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Namita_iOS_Developer_Tasks/Pods-Namita_iOS_Developer_Tasks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Namita_iOS_Developer_Tasks/Pods-Namita_iOS_Developer_Tasks.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BACE8EF2C6F3CA7D63ED4E72717EB574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8760BDBC27A31EDD431F112A90033366 /* RappleProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = RappleProgressHUD;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7FBFF0A39DE0C3959AFF23FF3514367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64D7A39AEAE164F8A0A9FB636751ED5 /* RappleProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = RappleProgressHUD;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB461E897EF8E2F99404DD61FA155B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B7D957CA1FCB77236A6A47F32173F2 /* MGStarRatingView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGStarRatingView/MGStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGStarRatingView/MGStarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MGStarRatingView/MGStarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = MGStarRatingView;
+				PRODUCT_NAME = MGStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4661B5B66B14659CC0777264D8CBFE /* Build configuration list for PBXNativeTarget "Pods-Namita_iOS_Developer_Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D752BA6B890CD14417B572500481FB9 /* Debug */,
+				58499660A67334AA808D3619EFC6D445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E23B30234E722B62616BE3103FDA815 /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FBFF0A39DE0C3959AFF23FF3514367 /* Debug */,
+				BACE8EF2C6F3CA7D63ED4E72717EB574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8890B752CA9B9B9561B7C7720786BE2 /* Build configuration list for PBXNativeTarget "MGStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB461E897EF8E2F99404DD61FA155B13 /* Debug */,
+				39FBBC32A68F813DEC47F281352E3D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

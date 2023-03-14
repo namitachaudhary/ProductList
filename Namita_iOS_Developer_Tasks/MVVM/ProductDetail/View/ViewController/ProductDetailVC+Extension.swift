@@ -19,27 +19,27 @@ extension ProductDetailsVC {
 // MARK: Private functions
 extension ProductDetailsVC {
     private func uiSetUp() {
-        setImageForCharacter(imageUrl: productDetailsResponse?.image)
+        setImageForProduct(imageUrl: productDetailsResponse?.image, imageView: productImageView)
         priceLabel.text = "₹ \(productDetailsResponse?.price ?? CharacterConstants.emptyDoubleValue)"
     }
     
     // MARK: Private Functions
-    fileprivate func setImageForCharacter(imageUrl: String?) {
-        guard let characterURL = imageUrl else {
-            return
-        }
-        
-        if let thumbnailUrl = URL(string: characterURL) {
-            imageManager.getImageFrom(url: thumbnailUrl) { image, urlString in
-                self.imageManager.saveImageInCache(image: image, forkey: characterURL)
-                DispatchQueue.main.async {
-                    if characterURL == urlString {
-                        self.productImageView.image = image
+    fileprivate func setImageForProduct(imageUrl: String?, imageView: UIImageView) {
+            guard let productURL = imageUrl else {
+                return
+            }
+            
+            if let thumbnailUrl = URL(string: productURL) {
+                imageManager.getImageFrom(url: thumbnailUrl) { image, urlString in
+                    self.imageManager.saveImageInCache(image: image, forkey: productURL)
+                    DispatchQueue.main.async {
+                        if productURL == urlString {
+                            imageView.image = image
+                        }
                     }
                 }
             }
         }
-    }
 }
 
 // MARK: IBActions

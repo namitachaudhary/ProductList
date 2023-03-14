@@ -37,25 +37,25 @@ class ProductListTVCell: UITableViewCell {
         
         self.productPriceLbl.text = "₹ \(productData.price ?? CharacterConstants.emptyDoubleValue)" // Assuming the price is in Indian rupees
         self.productNameLbl.text = productData.title ?? CharacterConstants.emptyString
-        setImageForCharacter(imageUrl: productData.image, imageView: productImageV)
+        setImageForProduct(imageUrl: productData.image, imageView: productImageV)
     }
     
     // MARK: Private Functions
-    fileprivate func setImageForCharacter(imageUrl: String?, imageView: UIImageView) {
-        guard let characterURL = imageUrl else {
-            return
-        }
-        
-        if let thumbnailUrl = URL(string: characterURL) {
-            imageManager.getImageFrom(url: thumbnailUrl) { image, urlString in
-                self.imageManager.saveImageInCache(image: image, forkey: characterURL)
-                DispatchQueue.main.async {
-                    if characterURL == urlString {
-                        imageView.image = image
+    fileprivate func setImageForProduct(imageUrl: String?, imageView: UIImageView) {
+            guard let productURL = imageUrl else {
+                return
+            }
+            
+            if let thumbnailUrl = URL(string: productURL) {
+                imageManager.getImageFrom(url: thumbnailUrl) { image, urlString in
+                    self.imageManager.saveImageInCache(image: image, forkey: productURL)
+                    DispatchQueue.main.async {
+                        if productURL == urlString {
+                            imageView.image = image
+                        }
                     }
                 }
             }
         }
-    }
 
 }
